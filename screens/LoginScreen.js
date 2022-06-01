@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Image, Platform, StyleSheet, ScrollView }
 import FormInput from '../components/FormInput'
 import FormButton from '../components/FormButton'
 import SocialButton from '../components/SocialButton'
-import { AuthContext } from '../navigation/AuthProvider'
+// import { AuthContext } from '../navigation/AuthProvider'
 
 const LoginScreen = ({ navigation }) => {
 	const [email, setEmail] = useState()
